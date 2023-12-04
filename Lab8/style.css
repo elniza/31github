@@ -1,0 +1,63 @@
+body {
+  background-color: aquamarine;
+  margin: 0px;
+}
+
+.main {
+  border: 4px solid goldenrod;
+  height: 600px;
+}
+
+.picter img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid red;
+  border-radius: 50%;
+}
+
+h2 {
+  color: goldenrod;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+b {
+  color: blue;
+}
+
+h3 {
+  color: brown;
+}
+
+.links{
+  display: block;
+  border: 4px solid yellow;
+  max-width: 320px;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding: 20px;
+  margin-top: 20px;
+  transition: 2s;
+}
+
+.links:hover{
+  border-radius: 20px 0px 0px 20px;
+  background-color: black;
+}
+
+a{
+  color:red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: chocolate;
+}
+
+.copy{
+  padding: 20px;
+}
+
+span{
+  color: cadetblue;
+}

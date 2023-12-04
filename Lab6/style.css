@@ -1,0 +1,108 @@
+body {
+  background-color: rgb(122, 93, 117);
+  margin:0px;;
+}
+.header {
+  width: auto;
+  height: 100px;
+  background-color: rgb(37, 31, 31);
+  border: 4px solid;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  color: rgb(193, 185, 185);
+  font-size: 45px;
+  font-weight: 100;
+}
+
+h1:hover{
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition: 3s;
+}
+
+.content-one{ 
+  width: auto;
+  height: auto;
+  background-color: rgb(81, 8, 8);
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.block{
+  width: 250px;
+  height: 250px;
+  border: 4px solid ;
+  margin: 100px 50px 100px 50px;
+
+}
+
+.one{
+
+  background-image: url(https://i.pinimg.com/564x/60/43/77/604377851087c58f9b4e015d05817214.jpg);
+  background-size: cover;
+  transform: matrix(360deg);
+  transition: 3s;
+  
+
+}
+.two{
+  background-image: url(https://i.pinimg.com/564x/4e/60/6d/4e606d7087c2aa74027e1d5af55c7559.jpg);
+ background-size: cover;
+  transform: perspective(360deg);
+  transition: 3s;
+  
+
+}
+.three{
+  background-image: url(https://i.pinimg.com/564x/5e/bf/87/5ebf87446c638420bd3c4c09050ed9d1.jpg);
+  background-size: cover;
+  transform: matrix(360deg);
+  transition: 3s;
+  
+
+}
+.foure{
+  background-image: url(https://i.pinimg.com/564x/91/a8/9e/91a89e5fed5d4c51dbf3b7351d3ae6ca.jpg);
+  background-size: cover;
+  transform: matrix(360deg);
+  transition: 3s;
+  
+
+}
+.five{
+  background-image: url(https://i.pinimg.com/564x/7c/30/79/7c3079c1bd7eaffb88201d172577c1f4.jpg);
+  background-size: cover;
+  transform: matrix(360deg);
+  transition: 3s;
+  
+
+}
+.six{
+  background-image: url(https://i.pinimg.com/564x/aa/30/37/aa3037402cd101f644677bc66d72cbf8.jpg);
+  background-size: cover;
+  transform: matrix(360deg);
+  transition: 3s;
+  
+
+}
+.seven{
+  background-image: url(https://i.pinimg.com/564x/07/9c/a4/079ca495d4222451fd19a4f19a1cd7e8.jpg);
+ background-size: cover;
+  transform: matrix(360deg);
+  transition: 3s;
+  
+
+}
+.eight{
+  background-image: url(https://i.pinimg.com/564x/01/60/f0/0160f0f089104fd5475414da2f5c0f96.jpg);
+  background-size: cover;
+  transform: matrix(360deg);
+  transition: 3s;
+  
+
+}
+
