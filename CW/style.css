@@ -1,0 +1,29 @@
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 60%;
+  animation: redToYellow1 3s infinite;
+  transition: 4s;
+}
+.box:hover {
+  width: 450px;
+  height: 450px;
+  animation: none;
+  color: rgb(90, 90, 90);
+  border-radius: 35px;
+}
+@keyframes redToYellow1 {
+  0% {
+    background-color: rgb(72, 180, 21);
+  }
+  25% {
+    background-color: rgb(119, 25, 25);
+  }
+  50% {
+    background-color: rgb(90, 90, 90);
+  }
+  100% {
+    background-color: rgb(72, 180, 21);
+  }
+}
