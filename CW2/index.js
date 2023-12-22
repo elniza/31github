@@ -1,0 +1,1 @@
+var car = { name : "Ferrari" , doors:2, color: "red"}
