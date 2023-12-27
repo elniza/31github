@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button class="colorButton">red</button>
+<button class="colorButton">blue</button>
+<button class="colorButton">green</button>
+<button class="colorButton">yellow</button>
+<button class="colorButton">pink</button>
+<button class="colorButton">orange</button>
+<button class="colorButton">purple</button>
+<button class="colorButton">black</button>
+<button class="colorButton">white</button>
+<button class="colorButton">gray</button>
+</body>
+<script>
+    var colorBtns = document.getElementsByClassName("colorButton");
+    for (var btn of colorBtns){
+        btn.addEventListener("click", function (event){
+            var color = event.target.innerHTML;
+            document.body.style.backgroundColor = color;
+        });
+    }
+</script>
+</html>
