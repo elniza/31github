@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  body{
+      background-color:#696969;
+  }
+  .container {
+    margin: 0 auto;
+    max-width: 1400px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  .header {
+    background-color:#696969	;
+    padding: 10px 0;
+  }
+  .header__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__logo h3 {
+    background-color: #A9A9A9;
+    padding: 10px 15px;
+    border-radius: 50%;
+  }
+  .header__nav {
+  }
+  .header__ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    list-style: none;
+    padding-left: 0;
+  }
+  .header__ul a {
+    display: block;
+    background:#A9A9A9;
+    margin: 0 15px;
+    padding: 10px 15px;
+  }
+  .header__burger {
+      display: none;
+      position: relative;
+  }
+  .header__burger__line {
+      margin: 5px 0;
+      position: relative;
+      background-color:#8B4513;
+      width: 50px;
+      height: 5px;
+  }
+  
+  /* 1 section */
+  .block__one {
+    background: url(https://i.ytimg.com/vi/7-TAbjq_UkE/hqdefault.jpg)
+   center no-repeat   ;
+    background-size: cover;
+  }
+  .container {
+  }
+  .block__one__content {
+  }
+  .block__one__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+  
+    font-size: 70px;
+    color: aliceblue;
+  }
+  /* 2 section */
+  
+  .block__two {
+  
+  }
+  .block__two__content {
+  }
+  .block__two__cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .block__two__card {
+      border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    background-color:aliceblue;
+  
+    margin: 40px;
+  }
+  .block__two__title {
+    position: relative;
+  
+    max-width: 130px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .block__two__title h1::after {
+    content: "1";
+    position: absolute;
+    background-color:#708090;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  
+    right: -110px;
+    top: -35px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .block__two__title a {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .block__two__title::before {
+    content: "";
+    position: absolute;
+    background: url(https://0.soompi.io/wp-content/uploads/2022/05/27154754/the-k2.jpeg)
+     center no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+  
+    left: -110px;
+    top: -45px;
+  }
+  .block__two__text {
+  }
+  /* footer */
+  .footer {
+      background-color:#778899;
+      padding: 20px 0;
+  
+  }
+  .footer__title {
+      text-align: center  ;
+  }

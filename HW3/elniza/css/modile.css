@@ -1,0 +1,12 @@
+@media(max-width: 500px){
+    .header__nav{
+        display: none;
+    }
+    .header__burger{
+        display: flex;
+        flex-direction: column;
+        padding: 10px ;
+
+        cursor: pointer;
+    }
+}
