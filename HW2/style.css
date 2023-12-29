@@ -1,0 +1,13 @@
+.body{
+    background-color: black;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: darkgreen;
+}
+/* .container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 800px;
+} */
